@@ -1,7 +1,7 @@
-import hero from './assets/hero.png'
-export { App };
+import hero from '../../assets/hero.png'
+export { Homepage };
 
-const App = () => {
+const Homepage = () => {
   return (
     <div>
       <nav>
