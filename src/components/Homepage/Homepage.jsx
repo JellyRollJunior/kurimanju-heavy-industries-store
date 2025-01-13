@@ -1,14 +1,16 @@
-import hero from '../../assets/hero.png'
-export { Homepage };
+import hero from '../../assets/hero.png';
+import styles from './Homepage.module.css';
 
 const Homepage = () => {
   return (
-    <div>
+    <div className={styles.layout}>
       <nav>
         <h1>Mech Industries</h1>
         <button>Go</button>
       </nav>
-      <img src={hero} alt="Mecha schematics" />
+      <img src={hero} alt="Mecha schematics" className={styles.hero} />
     </div>
   );
 };
+
+export { Homepage };
