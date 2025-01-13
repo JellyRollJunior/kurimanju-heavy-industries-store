@@ -11,7 +11,7 @@
 
 .button {
   composes: primaryBackground from '../../colors.module.css';
-  composes: primaryColor from '../../colors.module.css';
+  composes: secondaryColor from '../../colors.module.css';
   border: 2px dashed;
   margin-top: 18px;
   font-size: 1.5rem;
