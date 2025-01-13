@@ -1,4 +1,5 @@
 .layout {
+  composes: primaryBackground from '../../colors.module.css';
   display: grid;
   grid-template-columns: 1fr 1.8fr;
 }
