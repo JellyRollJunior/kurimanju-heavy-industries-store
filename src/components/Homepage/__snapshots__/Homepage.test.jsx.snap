@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Homepage component > Renders Homepage with hero image, company logo, and nav button 1`] = `
+<div>
+  <div
+    class="_layout_1f8969"
+  >
+    <nav
+      class="_nav_1f8969"
+    >
+      <img
+        alt=""
+        class="_logo_1f8969"
+        src="/src/assets/logo.svg"
+      />
+      <div
+        class="_buttonHolder_1f8969"
+      >
+        <button
+          class="_button_1f8969"
+        >
+          TAKE CONTROL
+        </button>
+      </div>
+    </nav>
+    <img
+      alt="Mecha schematics"
+      class="_hero_1f8969"
+      src="/src/assets/hero.png"
+    />
+  </div>
+</div>
+`;
