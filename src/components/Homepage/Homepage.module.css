@@ -18,6 +18,5 @@
 
 .hero {
   width: 100%;
-  margin-top: 64px;
-  padding-right: 46px;
+  padding: 64px 46px 64px 0;
 }
