@@ -1,7 +1,7 @@
 .wrapper {
-  composes: primaryBackground from '../../colors.module.css';
   composes: primaryColor from '../../colors.module.css';
   text-align: center;
+  background: rgba(0, 0, 0, 0);
 }
 
 .companyName {

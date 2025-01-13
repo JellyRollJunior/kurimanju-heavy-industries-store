@@ -1,12 +1,19 @@
 .layout {
   composes: primaryBackground from '../../colors.module.css';
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .nav {
-  margin-top: 160px;
+  margin-top: 80px;
   text-align: center;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .button {
@@ -17,7 +24,18 @@
   font-size: 1.5rem;
 }
 
-.hero {
-  width: 100%;
-  padding: 64px 46px 64px 0;
+@media (min-width: 760px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+  }
+
+  .nav {
+    margin-top: 160px;
+    translate: 24px;
+  }
+
+  .hero {
+    padding: 64px 24px 64px 0;
+  }
 }
