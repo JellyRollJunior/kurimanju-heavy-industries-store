@@ -1,0 +1,13 @@
+.wrapper {
+  text-align: center;
+}
+
+.companyName {
+  font-size: 60px;
+  font-style: italic;
+  line-height: 36px;
+}
+
+.companyTitle {
+  font-size: 20px;
+}

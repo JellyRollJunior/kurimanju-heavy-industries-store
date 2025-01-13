@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1.8fr;
 }
 
+.nav {
+  margin-top: 160px;
+}
+
 .hero {
   width: 100%;
   margin-top: 64px;
