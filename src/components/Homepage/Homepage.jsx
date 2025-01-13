@@ -1,12 +1,12 @@
 import hero from '../../assets/hero.png';
-import { Logo } from '../logo/logo.jsx';
+import logo from '../../assets/logo.svg';
 import styles from './Homepage.module.css';
 
 const Homepage = () => {
   return (
     <div className={styles.layout}>
       <nav className={styles.nav}>
-        <Logo></Logo>
+        <img src={logo} alt="" className={styles.logo}/>
         <button className={styles.button}>TAKE CONTROL</button>
       </nav>
       <img src={hero} alt="Mecha schematics" className={styles.hero} />

@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+.logo {
+  margin: auto;
+}
+
 .hero {
   width: 100%;
   margin-top: 64px;
@@ -31,11 +35,23 @@
   }
 
   .nav {
-    margin-top: 160px;
+    margin-top: 120px;
     translate: 24px;
   }
 
+  .logo {
+    width: 100%;
+  }
+
   .hero {
+    margin-top: 0;
     padding: 64px 24px 64px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav {
+    margin-top: 160px;
+    translate: 64px;
   }
 }
