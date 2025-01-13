@@ -1,4 +1,6 @@
 .wrapper {
+  composes: primaryBackground from '../../colors.module.css';
+  composes: primaryColor from '../../colors.module.css';
   text-align: center;
 }
 

@@ -7,6 +7,7 @@ const Homepage = () => {
     <div className={styles.layout}>
       <nav className={styles.nav}>
         <Logo></Logo>
+        <button className={styles.button}>TAKE CONTROL</button>
       </nav>
       <img src={hero} alt="Mecha schematics" className={styles.hero} />
     </div>
