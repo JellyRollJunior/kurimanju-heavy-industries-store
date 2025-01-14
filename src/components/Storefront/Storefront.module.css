@@ -11,9 +11,3 @@
 .shop {
   padding: 0 24px;
 }
-
-.card {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
