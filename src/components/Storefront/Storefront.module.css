@@ -1,8 +1,19 @@
 .layout {
   composes: layout from '../Homepage/Homepage.module.css';
+  composes: secondaryColor from '../../styles/colors.module.css';
 }
 
 .logo {
   composes: logo from '../Homepage/Homepage.module.css';
   margin-top: 80px;
+}
+
+.shop {
+  padding: 0 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
