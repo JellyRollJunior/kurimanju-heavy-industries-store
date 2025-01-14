@@ -1,0 +1,8 @@
+.layout {
+  composes: layout from '../Homepage/Homepage.module.css';
+}
+
+.logo {
+  composes: logo from '../Homepage/Homepage.module.css';
+  margin-top: 80px;
+}

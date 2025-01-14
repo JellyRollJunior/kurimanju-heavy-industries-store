@@ -25,13 +25,15 @@
   padding: 0 32px;
 }
 
-.button {
+.navButton {
   composes: primaryBackground from '../../styles/colors.module.css';
   composes: secondaryColor from '../../styles/colors.module.css';
   flex: 1;
   margin-top: 18px;
   font-size: 1.5rem;
   border: 3px dashed;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media (min-width: 760px) {
@@ -54,13 +56,13 @@
     padding: 46px 46px 0 0;
   }
 
-  .button {
+  .navButton {
     border: 5px dashed;
   }
 }
 
 @media (min-width: 1024px) {
-  .button {
+  .navButton {
     margin-top: 36px;
   }
 }
@@ -71,7 +73,7 @@
     translate: 64px;
   }
 
-  .button {
+  .navButton {
     margin-top: 64px;
     font-size: 2rem;
   }
@@ -82,7 +84,7 @@
     max-width: 600px;
   }
 
-  .button {
+  .navButton {
     margin-top: 180px;
     font-size: 3rem;
     border: 10px dashed;
