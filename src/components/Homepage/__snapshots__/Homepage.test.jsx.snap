@@ -16,11 +16,13 @@ exports[`Homepage component > Renders Homepage with hero image, company logo, an
       <div
         class="_buttonHolder_1f8969"
       >
-        <button
-          class="_button_1f8969"
+        <a
+          class="_navButton_1f8969"
+          data-discover="true"
+          href="/storefront"
         >
           TAKE CONTROL
-        </button>
+        </a>
       </div>
     </nav>
     <img
