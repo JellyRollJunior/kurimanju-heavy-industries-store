@@ -1,5 +1,33 @@
 .card {
+  composes: secondaryColor from '../../styles/colors.module.css';
+  composes: primaryBackground from '../../styles/colors.module.css';
   display: flex;
   flex-direction: column;
   text-align: right;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form > * {
+  display: block;
+  margin-left: auto;
+}
+
+.quantity {
+  max-width: 60px;
+  text-align: right;
+  color: inherit;
+  background-color: inherit;
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+.submitBtn {
+  color: inherit;
+  background-color: inherit;
+  border: 2px dashed;
 }

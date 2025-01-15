@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import styles from './Card.module.css';
 import hero from '../../assets/hero.png';
+import styles from './Card.module.css';
 
 const Card = ({ id, name = 'Unable to retrieve product info', price, img = hero, onSubmit }) => {
   const [quantity, setQuantity] = useState(0);
@@ -16,14 +16,15 @@ const Card = ({ id, name = 'Unable to retrieve product info', price, img = hero,
       <img src={img} alt={name} />
       <h3>{name}</h3>
       <h4>{price}</h4>
-      <form onSubmit={(event) => onSubmitCart(event)}>
+      <form onSubmit={(event) => onSubmitCart(event)} className={styles.form}>
         <input
           type="number"
           value={quantity}
           onChange={(event) => setQuantity(event.target.value)}
           required
+          className={styles.quantity}
         />
-        <button>Add to Cart</button>
+        <button className={styles.submitBtn}>Add to Cart</button>
       </form>
     </div>
   );
