@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import styles from './Card.module.css';
 
 const Card = ({ id, name, price, img, onSubmit }) => {
@@ -21,5 +22,12 @@ const Card = ({ id, name, price, img, onSubmit }) => {
     </div>
   );
 };
+
+Card.propTypes = {
+  id: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  img: PropTypes.string,
+}
 
 export { Card };
