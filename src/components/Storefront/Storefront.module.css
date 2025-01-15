@@ -9,5 +9,9 @@
 }
 
 .shop {
-  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  margin-top: 42px;
+  padding: 0 24px 24px 24px;
 }
