@@ -33,7 +33,7 @@
 }
 
 .englishText {
-  composes: primaryColor from '../../styles/colors.module.css';
+  composes: tertiaryColor from '../../styles/colors.module.css';
   transform-origin: top left;
   transform: rotate(90deg) translateY(15%);
   font-size: 32px;
@@ -42,14 +42,14 @@
 }
 
 .chineseText {
-  composes: primaryColor from '../../styles/colors.module.css';
+  composes: quaternaryColor from '../../styles/colors.module.css';
   transform: translateX(100%);
   font-size: 32px;
   font-style: italic;
 }
 
 .portrait {
-  composes: primaryColor from '../../styles/colors.module.css';
+  composes: secondaryColor from '../../styles/colors.module.css';
   padding: 12px;
   border-top: 2px solid;
   border-bottom: 2px solid;
