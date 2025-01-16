@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import hero from '../../assets/hero.png';
 import styles from './Card.module.css';
 
-const Card = ({ id, name = 'Unable to retrieve product info', price, img = hero, onSubmit }) => {
+const Card = ({
+  id,
+  name = 'Unable to retrieve product info',
+  price,
+  img = hero,
+  onSubmit,
+}) => {
   const [quantity, setQuantity] = useState(0);
 
   const onSubmitCart = (event) => {
@@ -14,9 +20,9 @@ const Card = ({ id, name = 'Unable to retrieve product info', price, img = hero,
   return (
     <div className={styles.card}>
       <img src={img} alt={name} />
-      <h3>{name}</h3>
-      <h4>{price}</h4>
       <form onSubmit={(event) => onSubmitCart(event)} className={styles.form}>
+        <h3 className={styles.itemName}>{name}</h3>
+        <h4>{price}</h4>
         <input
           type="number"
           value={quantity}

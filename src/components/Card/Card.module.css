@@ -3,13 +3,17 @@
   composes: primaryBackground from '../../styles/colors.module.css';
   display: flex;
   flex-direction: column;
+  padding: 24px 16px 14px 16px;
+
   text-align: right;
+  border: 2px solid;
+  border-radius: 4px;
 }
 
 .form {
+  composes: primaryColor from '../../styles/colors.module.css';
   display: flex;
   flex-direction: column;
-  gap: 6px;
 }
 
 .form > * {
@@ -18,16 +22,27 @@
 }
 
 .quantity {
-  max-width: 60px;
+  max-width: 80px;
+  margin-top: 6px;
+  padding: 3px 3px 1px 3px;
+
   text-align: right;
   color: inherit;
   background-color: inherit;
-  border: 2px solid;
+  border: 2px dashed;
   border-radius: 6px;
 }
 
 .submitBtn {
-  color: inherit;
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  margin-top: 10px;
+  padding: 3px 18px 1px 18px;
+
   background-color: inherit;
-  border: 2px dashed;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.itemName {
+  composes: tertiaryColor from '../../styles/colors.module.css';
 }
