@@ -19,7 +19,7 @@
 .shop {
   display: flex;
   flex-direction: column;
-  gap: 54px;
+  gap: 28px;
   margin-top: 42px;
   padding: 0 24px 24px 24px;
 }
