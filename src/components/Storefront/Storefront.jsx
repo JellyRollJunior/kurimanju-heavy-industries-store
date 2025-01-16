@@ -2,6 +2,7 @@ import { useState } from 'react';
 import logo from '../../assets/logo.svg';
 import headerIcon from '../../assets/header-icon.png';
 import headerPortrait from '../../assets/header-portrait.png';
+import headerHudText from '../../assets/header-hud-text.png';
 import styles from './Storefront.module.css';
 import { productData } from '../../data/productData.js';
 import { Card } from '../Card/Card.jsx';
@@ -38,6 +39,7 @@ const Storefront = () => {
           <div></div>
           <img src={headerPortrait} alt="" className={styles.portrait} />
         </div>
+        <img src={headerHudText} alt="" className={styles.hudText} />
       </header>
       <main className={styles.shop}>
         {productData.map((item) => (
