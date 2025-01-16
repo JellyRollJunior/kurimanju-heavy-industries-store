@@ -13,7 +13,7 @@
 
 .logo {
   composes: logo from '../Homepage/Homepage.module.css';
-  margin-top: 12px;
+  margin-top: -12px;
 }
 
 .shop {
