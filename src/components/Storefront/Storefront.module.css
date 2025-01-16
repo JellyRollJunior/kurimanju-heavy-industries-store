@@ -28,13 +28,14 @@
   display: grid;
   grid-template-columns: 47% 53%;
   margin-top: 24px;
+  margin-bottom: 40px;
   padding-right: 8px;
 }
 
 .englishText {
   composes: primaryColor from '../../styles/colors.module.css';
   transform-origin: top left;
-  transform: rotate(90deg) translateY(10%);
+  transform: rotate(90deg) translateY(15%);
   font-size: 32px;
   text-wrap: nowrap;
   line-height: 1.1;
