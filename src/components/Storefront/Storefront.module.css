@@ -1,6 +1,9 @@
 .layout {
-  composes: layout from '../Homepage/Homepage.module.css';
+  composes: primaryBackground from '../../styles/colors.module.css';
   composes: secondaryColor from '../../styles/colors.module.css';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .headerIcon {
@@ -61,4 +64,29 @@
 .hudText {
   min-width: 280px;
   margin: auto;
+}
+
+@media (min-width: 760px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+  }
+
+  .logo {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 2000px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
