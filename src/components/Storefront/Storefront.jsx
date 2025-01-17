@@ -53,6 +53,7 @@ const Storefront = () => {
           ></Card>
         ))}
       </main>
+      <button onClick={() => console.log('hello')} className={styles.checkout}><span>Checkout</span></button>
     </div>
   );
 };
