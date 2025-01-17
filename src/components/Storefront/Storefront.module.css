@@ -16,7 +16,7 @@
 
 .logo {
   composes: logo from '../Homepage/Homepage.module.css';
-  margin-top: -16px;
+  margin-top: -8px;
 }
 
 .shop {
@@ -80,6 +80,7 @@
 
   .logo {
     padding: 12px;
+    margin-top: -16px;
   }
 }
 
