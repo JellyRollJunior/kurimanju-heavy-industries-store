@@ -26,6 +26,8 @@ const Header = () => {
         </p>
         <div></div>
         <img src={headerPortrait} alt="" className={styles.portrait} />
+        <div></div>
+        <button className={styles.viewCartButton} onClick={() => console.log('hello world')}>View Cart</button>
       </div>
       <img src={headerHudText} alt="" className={styles.hudText} />
     </header>

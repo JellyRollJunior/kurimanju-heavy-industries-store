@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: 47% 53%;
   margin-top: 6px;
-  margin-bottom: 42px;
   padding-right: 8px;
 }
 
@@ -43,6 +42,10 @@
   border-right: 2px solid;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+.viewCartButton {
+  composes: submitBtn from '../Card/Card.module.css';
 }
 
 .hudText {
