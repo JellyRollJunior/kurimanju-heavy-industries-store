@@ -1,0 +1,70 @@
+.headerIcon {
+  composes: logo from '../Homepage/Homepage.module.css';
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  object-fit: none;
+}
+
+.logo {
+  composes: logo from '../Homepage/Homepage.module.css';
+  margin-top: -8px;
+}
+
+.headerDecoration {
+  display: grid;
+  grid-template-columns: 47% 53%;
+  margin-top: 6px;
+  margin-bottom: 42px;
+  padding-right: 8px;
+}
+
+.englishText {
+  composes: tertiaryColor from '../../styles/colors.module.css';
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(15%);
+  font-size: 30px;
+  text-wrap: nowrap;
+  line-height: 1.1;
+}
+
+.chineseText {
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  transform: translateX(100%);
+  font-size: 30px;
+  font-style: italic;
+}
+
+.portrait {
+  composes: secondaryColor from '../../styles/colors.module.css';
+  padding: 12px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.hudText {
+  min-width: 280px;
+  margin: auto;
+}
+
+@media (min-width: 760px) {
+  .logo {
+    padding: 12px;
+    margin-top: -16px;
+  }
+
+  .header {
+    align-self: start;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .headerDecoration {
+    margin-top: 2px;
+  }
+}
