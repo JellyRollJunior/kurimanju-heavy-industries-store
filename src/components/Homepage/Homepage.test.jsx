@@ -10,6 +10,7 @@ describe('Homepage component', () => {
         <Homepage />
       </MemoryRouter>
     );
+
     expect(container).toMatchSnapshot();
   });
 });
