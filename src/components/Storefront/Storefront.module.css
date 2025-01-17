@@ -83,14 +83,14 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
   .shop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1400px) {
   .shop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
