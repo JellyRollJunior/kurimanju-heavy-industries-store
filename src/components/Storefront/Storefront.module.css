@@ -1,19 +1,9 @@
 .layout {
-  composes: layout from '../Homepage/Homepage.module.css';
+  composes: primaryBackground from '../../styles/colors.module.css';
   composes: secondaryColor from '../../styles/colors.module.css';
-}
-
-.headerIcon {
-  composes: logo from '../Homepage/Homepage.module.css';
-  width: 140px;
-  height: 140px;
-  margin-top: 24px;
-  object-fit: none;
-}
-
-.logo {
-  composes: logo from '../Homepage/Homepage.module.css';
-  margin-top: -12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .shop {
@@ -24,41 +14,23 @@
   padding: 0 24px 24px 24px;
 }
 
-.headerDecoration {
-  display: grid;
-  grid-template-columns: 47% 53%;
-  margin-top: 24px;
-  margin-bottom: 55px;
-  padding-right: 8px;
+@media (min-width: 760px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+  }
 }
 
-.englishText {
-  composes: tertiaryColor from '../../styles/colors.module.css';
-  transform-origin: top left;
-  transform: rotate(90deg) translateY(15%);
-  font-size: 32px;
-  text-wrap: nowrap;
-  line-height: 1.1;
+@media (min-width: 1000px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.chineseText {
-  composes: quaternaryColor from '../../styles/colors.module.css';
-  transform: translateX(100%);
-  font-size: 32px;
-  font-style: italic;
-}
-
-.portrait {
-  composes: secondaryColor from '../../styles/colors.module.css';
-  padding: 12px;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  border-right: 2px solid;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-.hudText {
-  min-width: 280px;
-  margin: auto;
+@media (min-width: 1400px) {
+  .shop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

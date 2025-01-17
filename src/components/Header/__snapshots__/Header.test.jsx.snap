@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header component > Renders icon, logo, text designs, portrait, and HUD text 1`] = `
+<div>
+  <header
+    class="_header_63c2ea"
+  >
+    <img
+      alt=""
+      class="_headerIcon_63c2ea"
+      src="/src/assets/header-icon.png"
+    />
+    <img
+      alt=""
+      class="_logo_63c2ea"
+      src="/src/assets/logo.svg"
+    />
+    <div
+      class="_headerDecoration_63c2ea"
+    >
+      <p
+        class="_chineseText_63c2ea"
+      >
+        機体究更
+        <br />
+        武裝解除
+        <br />
+        決定中止
+      </p>
+      <p
+        class="_englishText_63c2ea"
+      >
+        F91 EARTH-WIND RISES
+        <br />
+        LIBERATION X-97
+        <br />
+        DE- 524 - ITY
+      </p>
+      <div />
+      <img
+        alt=""
+        class="_portrait_63c2ea"
+        src="/src/assets/header-portrait.png"
+      />
+    </div>
+    <img
+      alt=""
+      class="_hudText_63c2ea"
+      src="/src/assets/header-hud-text.png"
+    />
+  </header>
+</div>
+`;
