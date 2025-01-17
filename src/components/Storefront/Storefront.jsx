@@ -17,6 +17,7 @@ const Storefront = () => {
     <div className={styles.layout}>
       <Header />
       <main className={styles.shop}>
+        <button onClick={() => console.log('hello')} className={styles.checkout}>Checkout</button>
         {productData.map((item) => (
           <Card
             key={item.id}
@@ -28,7 +29,6 @@ const Storefront = () => {
           ></Card>
         ))}
       </main>
-      <button onClick={() => console.log('hello')} className={styles.checkout}><span>Checkout</span></button>
     </div>
   );
 };
