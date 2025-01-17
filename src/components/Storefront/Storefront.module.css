@@ -8,15 +8,15 @@
 
 .headerIcon {
   composes: logo from '../Homepage/Homepage.module.css';
-  width: 140px;
-  height: 140px;
-  margin-top: 24px;
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
   object-fit: none;
 }
 
 .logo {
   composes: logo from '../Homepage/Homepage.module.css';
-  margin-top: -12px;
+  margin-top: -16px;
 }
 
 .shop {
@@ -30,8 +30,8 @@
 .headerDecoration {
   display: grid;
   grid-template-columns: 47% 53%;
-  margin-top: 24px;
-  margin-bottom: 55px;
+  margin-top: 6px;
+  margin-bottom: 42px;
   padding-right: 8px;
 }
 
@@ -39,7 +39,7 @@
   composes: tertiaryColor from '../../styles/colors.module.css';
   transform-origin: top left;
   transform: rotate(90deg) translateY(15%);
-  font-size: 32px;
+  font-size: 30px;
   text-wrap: nowrap;
   line-height: 1.1;
 }
@@ -47,7 +47,7 @@
 .chineseText {
   composes: quaternaryColor from '../../styles/colors.module.css';
   transform: translateX(100%);
-  font-size: 32px;
+  font-size: 30px;
   font-style: italic;
 }
 
@@ -70,6 +70,12 @@
   .layout {
     display: grid;
     grid-template-columns: 320px 1fr;
+  }
+
+  .header {
+    align-self: start;
+    position: sticky;
+    top: 0;
   }
 
   .logo {
