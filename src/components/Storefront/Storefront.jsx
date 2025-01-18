@@ -16,17 +16,20 @@ const Storefront = () => {
   return (
     <div className={styles.layout}>
       <Header />
-      <main className={styles.shop}>
-        {productData.map((item) => (
-          <Card
-            key={item.id}
-            id={item.id}
-            name={item.name}
-            price={item.price}
-            img={item.img}
-            onSubmit={addToCart}
-          ></Card>
-        ))}
+      <main>
+        <header className={styles.shopHeader}><h2 className={styles.shopHeaderTitle}>SHOP</h2></header>
+        <section className={styles.shop}>
+          {productData.map((item) => (
+            <Card
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              price={item.price}
+              img={item.img}
+              onSubmit={addToCart}
+            ></Card>
+          ))}
+        </section>
       </main>
     </div>
   );

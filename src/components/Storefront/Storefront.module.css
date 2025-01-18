@@ -6,12 +6,43 @@
   min-height: 100vh;
 }
 
+main {
+  padding: 12px;
+}
+
+.shopHeader {
+  display: flex;
+  justify-content: center;
+
+  --header-color: #ffcc77;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    var(--header-color) 10px,
+    var(--header-color) 20px
+  );
+}
+
+.shopHeaderTitle {
+  composes: primaryBackground from '../../styles/colors.module.css';
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  padding: 3px 12px 0 12px;
+  font-size: 20px;
+  border: 2px solid;
+}
+
 .shop {
+  composes: quaternaryColor from '../../styles/colors.module.css';
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-top: 42px;
-  padding: 0 24px 24px 24px;
+  padding: 42px 24px 24px 24px;
+
+  border: 2px solid;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 @media (min-width: 760px) {
