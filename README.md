@@ -4,6 +4,12 @@
     <img align="center" width="" alt="" src="./project-images/demo.gif">
 </p>
 
+### todos:
+- button hover animations
+- cart modal
+- quanitity increment button
+- Homepage animations
+
 ### Features
 
 ### Stack
