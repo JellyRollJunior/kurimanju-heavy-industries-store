@@ -6,7 +6,7 @@ import { Card } from '../Card/Card.jsx';
 
 const Storefront = () => {
   const [cart, setCart] = useState(Array(productData.length).fill(0));
-  const [showCart, setShowCart] = useState(true);
+  const [showCart, setShowCart] = useState(false);
 
   const addToCart = (id, quantity) => {
     const newCart = [...cart];
@@ -14,9 +14,13 @@ const Storefront = () => {
     setCart(newCart);
   };
 
+  const displayCart = () => {
+    setShowCart(true);
+  }
+
   return (
     <div className={styles.layout}>
-      <Header />
+      <Header onClickViewCart={displayCart} />
       <main>
         <header className={styles.shopHeader}><h2 className={styles.shopHeaderTitle}>SHOP</h2></header>
         <section className={styles.shop}>
