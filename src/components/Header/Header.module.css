@@ -67,7 +67,11 @@
 }
 
 @media (min-width: 1400px) {
+  .logo {
+    margin-top: -18px;
+  }
+  
   .headerDecoration {
-    margin-top: 2px;
+    margin-top: -4px;
   }
 }
