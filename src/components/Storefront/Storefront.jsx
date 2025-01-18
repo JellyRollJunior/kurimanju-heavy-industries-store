@@ -6,6 +6,7 @@ import { Card } from '../Card/Card.jsx';
 
 const Storefront = () => {
   const [cart, setCart] = useState(Array(productData.length).fill(0));
+  const [showCart, setShowCart] = useState(true);
 
   const addToCart = (id, quantity) => {
     const newCart = [...cart];
@@ -31,6 +32,13 @@ const Storefront = () => {
           ))}
         </section>
       </main>
+      {showCart && (
+        <aside className={styles.cartOverlay}>
+          <div className={styles.cart}>
+            <h2>Cart</h2>
+          </div>
+        </aside>
+      )}
     </div>
   );
 };
