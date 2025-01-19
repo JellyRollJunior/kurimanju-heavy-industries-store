@@ -37,12 +37,3 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
-
-@font-face {
-  font-family: orbitron-light;
-  src: url(../assets/fonts/orbitron-light-webfont.woff);
-}
-
-html {
-  font-family: 'orbitron-light';
-}

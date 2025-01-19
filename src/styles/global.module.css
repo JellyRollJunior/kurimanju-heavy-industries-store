@@ -1,0 +1,23 @@
+@font-face {
+  font-family: orbitron-light;
+  src: url(../assets/fonts/orbitron-light-webfont.woff);
+}
+
+html {
+  font-family: 'orbitron-light';
+}
+
+button {
+  color: #ffcc77;
+  margin-top: 10px;
+  padding: 3px 18px 1px 18px;
+
+  background-color: inherit;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: black;
+  background-color: #ffcc77;
+}

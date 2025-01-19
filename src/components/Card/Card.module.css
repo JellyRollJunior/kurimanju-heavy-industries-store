@@ -33,16 +33,6 @@
   border-radius: 6px;
 }
 
-.submitBtn {
-  composes: quaternaryColor from '../../styles/colors.module.css';
-  margin-top: 10px;
-  padding: 3px 18px 1px 18px;
-
-  background-color: inherit;
-  border: 2px solid;
-  border-radius: 4px;
-}
-
 .itemName {
   composes: tertiaryColor from '../../styles/colors.module.css';
 }

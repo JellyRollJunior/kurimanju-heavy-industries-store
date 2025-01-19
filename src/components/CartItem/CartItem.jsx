@@ -11,7 +11,7 @@ const CartItem = ({ itemId, quantity, removeFromCart }) => {
         <h3 className={styles.name}>{name}</h3>
         <h4 className={styles.price}>{price}</h4>
         <h4 className={styles.quantity}>Quantity: {quantity}</h4>
-        <button onClick={() => removeFromCart(itemId)} className={styles.removeButton}>Remove item</button>
+        <button onClick={() => removeFromCart(itemId)} className={styles.removeButton}>Remove</button>
       </div>
     </li>
   );

@@ -44,10 +44,6 @@
   border-bottom-right-radius: 8px;
 }
 
-.viewCartButton {
-  composes: submitBtn from '../Card/Card.module.css';
-}
-
 .hudText {
   min-width: 280px;
   margin: auto;

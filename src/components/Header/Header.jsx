@@ -27,7 +27,7 @@ const Header = ({onClickViewCart}) => {
         <div></div>
         <img src={headerPortrait} alt="" className={styles.portrait} />
         <div></div>
-        <button className={styles.viewCartButton} onClick={onClickViewCart}>View Cart</button>
+        <button onClick={onClickViewCart}>View Cart</button>
       </div>
       <img src={headerHudText} alt="" className={styles.hudText} />
     </header>

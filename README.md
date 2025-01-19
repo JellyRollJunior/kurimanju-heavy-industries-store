@@ -6,13 +6,13 @@
 
 ### todos:
 - button hover animations
-- quanitity increment button
 - Homepage animations
 - inputs max value
-- remove quantity!
 - test
 - add to cart notification
 - perhaps extract cart login into js file for more complete testing? because testing react state is not convenient
+- footer
+- bug: view cart button width on mobile-tablet in between
 
 ### Features
 

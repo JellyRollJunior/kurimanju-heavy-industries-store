@@ -3,6 +3,5 @@
 }
 
 .checkoutButton {
-  composes: submitBtn from '../Card/Card.module.css';
   width: 100%;
 }
