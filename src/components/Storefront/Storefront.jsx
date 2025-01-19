@@ -26,6 +26,12 @@ const Storefront = () => {
     setCart(newCart);
   };
 
+  const removeFromCart = (id) => {
+    const newCart = [...cart];
+    newCart[id] = 0;
+    setCart(newCart);
+  }
+
   const checkoutCart = () => {
     alert('Checkout successful');
     hideCart();
@@ -72,6 +78,7 @@ const Storefront = () => {
         subtotal={subtotal}
         hideCart={hideCart}
         checkoutCart={checkoutCart}
+        removeFromCart={removeFromCart}
       />
     </div>
   );

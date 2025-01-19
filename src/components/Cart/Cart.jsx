@@ -2,7 +2,14 @@ import styles from './Cart.module.css';
 import { CartInfo } from '../CartInfo/CartInfo.jsx';
 import { CartItem } from '../CartItem/CartItem.jsx';
 
-const Cart = ({cart, numCartItems, subtotal, hideCart, checkoutCart }) => {
+const Cart = ({
+  cart,
+  numCartItems,
+  subtotal,
+  hideCart,
+  checkoutCart,
+  removeFromCart,
+}) => {
   return (
     <aside className={styles.cart}>
       <section className={styles.titleHolder}>
@@ -11,13 +18,22 @@ const Cart = ({cart, numCartItems, subtotal, hideCart, checkoutCart }) => {
           &times;
         </button>
       </section>
-      <CartInfo numCartItems={numCartItems} subtotal={subtotal} checkoutCart={checkoutCart} />
+      <CartInfo
+        numCartItems={numCartItems}
+        subtotal={subtotal}
+        checkoutCart={checkoutCart}
+      />
       <section>
         <ul>
           {cart.map(
             (quantity, itemId) =>
               quantity > 0 && (
-                <CartItem key={itemId} itemId={itemId} quantity={quantity} />
+                <CartItem
+                  key={itemId}
+                  itemId={itemId}
+                  quantity={quantity}
+                  removeFromCart={removeFromCart}
+                />
               )
           )}
         </ul>
