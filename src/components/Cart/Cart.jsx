@@ -1,4 +1,5 @@
 import styles from './Cart.module.css'
+import { CartItem } from '../CartItem/CartItem.jsx';
 
 const Cart = ({cart, numCartItems, subtotal, hideCart}) => {
   return (
@@ -14,8 +15,8 @@ const Cart = ({cart, numCartItems, subtotal, hideCart}) => {
           <h3>Subtotal ({numCartItems} items):</h3>
           <h3>$ {subtotal.toLocaleString().replace(/,/g, ' ')}</h3>
           <ul>
-            {cart.map((quantity, index) => {
-              return quantity > 0 && <li key={index}></li>;
+            {cart.map((quantity, itemId) => {
+              return quantity > 0 && <CartItem key={itemId} itemId={itemId} quantity={quantity} />;
             })}
           </ul>
         </section>
