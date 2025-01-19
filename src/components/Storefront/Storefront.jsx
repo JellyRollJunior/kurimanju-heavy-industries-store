@@ -7,6 +7,16 @@ import { Card } from '../Card/Card.jsx';
 const Storefront = () => {
   const [cart, setCart] = useState(Array(productData.length).fill(0));
   const [showCart, setShowCart] = useState(true);
+  const numCartItems = cart.reduce((total, quantity) => total += quantity, 0);
+  const subtotal = cart.reduce((accumulator, quantity, index) => {
+    const itemPrice = Number(
+      productData
+        .find((product) => product.id == index)
+        .price.replace(/\s+/g, '')
+    );
+    accumulator += itemPrice * quantity;
+    return accumulator;
+  }, 0);
 
   const addToCart = (id, quantity) => {
     const newCart = [...cart];
@@ -16,17 +26,19 @@ const Storefront = () => {
 
   const displayCart = () => {
     setShowCart(true);
-  }
+  };
 
   const hideCart = () => {
     setShowCart(false);
-  }
+  };
 
   return (
     <div className={styles.layout}>
       <Header onClickViewCart={displayCart} />
       <main>
-        <header className={styles.shopHeader}><h2 className={styles.shopHeaderTitle}>SHOP</h2></header>
+        <header className={styles.shopHeader}>
+          <h2 className={styles.shopHeaderTitle}>SHOP</h2>
+        </header>
         <section className={styles.shop}>
           {productData.map((item) => (
             <Card
@@ -45,7 +57,13 @@ const Storefront = () => {
           <div className={styles.cart}>
             <section className={styles.titleHolder}>
               <h2>Cart</h2>
-              <button onClick={hideCart} className={styles.hideCart}>&times;</button>
+              <button onClick={hideCart} className={styles.hideCart}>
+                &times;
+              </button>
+            </section>
+            <section>
+              <h3>Subtotal ({numCartItems} items):</h3>
+              <h3>$ {subtotal.toLocaleString().replace(/,/g, ' ')}</h3>
             </section>
           </div>
         </aside>

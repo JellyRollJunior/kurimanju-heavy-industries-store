@@ -9,6 +9,7 @@
 - cart modal
 - quanitity increment button
 - Homepage animations
+- inputs max value
 
 ### Features
 
