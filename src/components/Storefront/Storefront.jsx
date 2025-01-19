@@ -6,7 +6,7 @@ import { Card } from '../Card/Card.jsx';
 
 const Storefront = () => {
   const [cart, setCart] = useState(Array(productData.length).fill(0));
-  const [showCart, setShowCart] = useState(false);
+  const [showCart, setShowCart] = useState(true);
 
   const addToCart = (id, quantity) => {
     const newCart = [...cart];
