@@ -40,15 +40,6 @@
   border: none;
 }
 
-.subtotal {
-  composes: tertiaryColor from '../../styles/colors.module.css';
-}
-
-.checkoutButton {
-  composes: submitBtn from '../Card/Card.module.css';
-  width: 100%;
-}
-
 ul {
   margin: 16px 0 14px 0;
   padding: 0;

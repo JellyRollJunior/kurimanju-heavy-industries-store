@@ -13,7 +13,6 @@
 - checkout button do stuff
 - remove button do stuff
 - cart open animation
-- refactor cart
 
 ### Features
 
