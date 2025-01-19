@@ -3,11 +3,12 @@ import styles from './Storefront.module.css';
 import { productData } from '../../data/productData.js';
 import { Header } from '../Header/Header.jsx';
 import { Card } from '../Card/Card.jsx';
+import { Cart } from '../Cart/Cart.jsx';
 
 const Storefront = () => {
   const [cart, setCart] = useState(Array(productData.length).fill(0));
   const [showCart, setShowCart] = useState(true);
-  const numCartItems = cart.reduce((total, quantity) => total += quantity, 0);
+  const numCartItems = cart.reduce((total, quantity) => (total += quantity), 0);
   const subtotal = cart.reduce((accumulator, quantity, index) => {
     const itemPrice = Number(
       productData
@@ -53,20 +54,12 @@ const Storefront = () => {
         </section>
       </main>
       {showCart && (
-        <aside className={styles.cartOverlay}>
-          <div className={styles.cart}>
-            <section className={styles.titleHolder}>
-              <h2>Cart</h2>
-              <button onClick={hideCart} className={styles.hideCart}>
-                &times;
-              </button>
-            </section>
-            <section>
-              <h3>Subtotal ({numCartItems} items):</h3>
-              <h3>$ {subtotal.toLocaleString().replace(/,/g, ' ')}</h3>
-            </section>
-          </div>
-        </aside>
+        <Cart
+          cart={cart}
+          numCartItems={numCartItems}
+          subtotal={subtotal}
+          hideCart={hideCart}
+        />
       )}
     </div>
   );
