@@ -1,7 +1,9 @@
-import styles from './Cart.module.css'
+import styles from './Cart.module.css';
 import { CartItem } from '../CartItem/CartItem.jsx';
 
-const Cart = ({cart, numCartItems, subtotal, hideCart}) => {
+const Cart = ({ cart, numCartItems, subtotal, hideCart }) => {
+  const formattedSubtotal = subtotal.toLocaleString().replace(/,/g, ' ');
+  
   return (
     <aside className={styles.cartOverlay}>
       <div className={styles.cart}>
@@ -12,17 +14,22 @@ const Cart = ({cart, numCartItems, subtotal, hideCart}) => {
           </button>
         </section>
         <section>
-          <h3>Subtotal ({numCartItems} items):</h3>
-          <h3>$ {subtotal.toLocaleString().replace(/,/g, ' ')}</h3>
-          <ul>
-            {cart.map((quantity, itemId) => {
-              return quantity > 0 && <CartItem key={itemId} itemId={itemId} quantity={quantity} />;
-            })}
-          </ul>
+          <h3 className={styles.subtotal}>Subtotal ({numCartItems} items):</h3>
+          <h3 className={styles.subtotal}>$ {formattedSubtotal}</h3>
+          <button className={styles.checkoutButton}>Proceed to Checkout</button>
         </section>
+        <ul>
+          {cart.map((quantity, itemId) => {
+            return (
+              quantity > 0 && (
+                <CartItem key={itemId} itemId={itemId} quantity={quantity} />
+              )
+            );
+          })}
+        </ul>
       </div>
     </aside>
   );
 };
 
-export { Cart }
+export { Cart };

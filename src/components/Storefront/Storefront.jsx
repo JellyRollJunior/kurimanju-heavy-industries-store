@@ -6,7 +6,8 @@ import { Card } from '../Card/Card.jsx';
 import { Cart } from '../Cart/Cart.jsx';
 
 const Storefront = () => {
-  const [cart, setCart] = useState(Array(productData.length).fill(0));
+  // const [cart, setCart] = useState(Array(productData.length).fill(0));
+  const [cart, setCart] = useState([1, 1, 1, 1, 1]);
   const [showCart, setShowCart] = useState(true);
   const numCartItems = cart.reduce((total, quantity) => (total += quantity), 0);
   const subtotal = cart.reduce((accumulator, quantity, index) => {
@@ -26,10 +27,12 @@ const Storefront = () => {
   };
 
   const displayCart = () => {
+    document.body.style.overflow = "hidden";
     setShowCart(true);
   };
 
   const hideCart = () => {
+    document.body.style.overflow = "";
     setShowCart(false);
   };
 
