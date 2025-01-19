@@ -1,20 +1,13 @@
-.cartOverlay {
-  display: flex;
-  justify-content: end;
-  padding: 65px 0;
-
-  position: fixed;
-  right: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #00000080;
-}
-
 .cart {
   composes: primaryBackground from '../../styles/colors.module.css';
   composes: quaternaryColor from '../../styles/colors.module.css';
-  min-width: 250px;
-  max-width: 95vw;
+  --cart-width: 290px;
+  position: fixed;
+  right: calc(-1 * var(--cart-width));
+
+  width: var(--cart-width);
+  max-height: 90vh;
+  margin-top: 32px;
   padding: 8px 16px 0 12px;
 
   text-align: left;
@@ -43,4 +36,14 @@
 ul {
   margin: 16px 0 14px 0;
   padding: 0;
+}
+
+.slideIn {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-out;
+}
+
+.slideOut {
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
 }

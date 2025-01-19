@@ -13,6 +13,7 @@
 - checkout button do stuff
 - remove button do stuff
 - cart open animation
+- test
 
 ### Features
 
