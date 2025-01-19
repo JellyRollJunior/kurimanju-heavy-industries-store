@@ -26,6 +26,12 @@ const Storefront = () => {
     setCart(newCart);
   };
 
+  const checkoutCart = () => {
+    alert('Checkout successful');
+    hideCart();
+    setCart(Array(productData.length).fill(0));
+  }
+
   const displayCart = () => {
     const cart = document.querySelector('aside');
     document.body.style.overflow = 'hidden';
@@ -65,6 +71,7 @@ const Storefront = () => {
         numCartItems={numCartItems}
         subtotal={subtotal}
         hideCart={hideCart}
+        checkoutCart={checkoutCart}
       />
     </div>
   );

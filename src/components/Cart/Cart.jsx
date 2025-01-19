@@ -2,7 +2,7 @@ import styles from './Cart.module.css';
 import { CartInfo } from '../CartInfo/CartInfo.jsx';
 import { CartItem } from '../CartItem/CartItem.jsx';
 
-const Cart = ({cart, numCartItems, subtotal, hideCart }) => {
+const Cart = ({cart, numCartItems, subtotal, hideCart, checkoutCart }) => {
   return (
     <aside className={styles.cart}>
       <section className={styles.titleHolder}>
@@ -11,7 +11,7 @@ const Cart = ({cart, numCartItems, subtotal, hideCart }) => {
           &times;
         </button>
       </section>
-      <CartInfo numCartItems={numCartItems} subtotal={subtotal} />
+      <CartInfo numCartItems={numCartItems} subtotal={subtotal} checkoutCart={checkoutCart} />
       <section>
         <ul>
           {cart.map(
