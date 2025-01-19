@@ -4,6 +4,16 @@
     <img align="center" width="" alt="" src="./project-images/demo.gif">
 </p>
 
+### todos:
+- button hover animations
+- quanitity increment button
+- Homepage animations
+- inputs max value
+
+- checkout button do stuff
+- remove button do stuff
+- test
+
 ### Features
 
 ### Stack

@@ -4,7 +4,7 @@ import headerPortrait from '../../assets/header-portrait.png';
 import headerHudText from '../../assets/header-hud-text.png';
 import styles from './Header.module.css';
 
-const Header = () => {
+const Header = ({onClickViewCart}) => {
   return (
     <header className={styles.header}>
       <img src={headerIcon} alt="" className={styles.headerIcon} />
@@ -26,6 +26,8 @@ const Header = () => {
         </p>
         <div></div>
         <img src={headerPortrait} alt="" className={styles.portrait} />
+        <div></div>
+        <button className={styles.viewCartButton} onClick={onClickViewCart}>View Cart</button>
       </div>
       <img src={headerHudText} alt="" className={styles.hudText} />
     </header>

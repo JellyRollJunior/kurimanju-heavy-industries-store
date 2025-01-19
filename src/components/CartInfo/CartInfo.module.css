@@ -1,0 +1,8 @@
+.subtotal {
+  composes: tertiaryColor from '../../styles/colors.module.css';
+}
+
+.checkoutButton {
+  composes: submitBtn from '../Card/Card.module.css';
+  width: 100%;
+}
