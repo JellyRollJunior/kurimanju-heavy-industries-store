@@ -28,12 +28,21 @@
 .navButton {
   composes: primaryBackground from '../../styles/colors.module.css';
   composes: secondaryColor from '../../styles/colors.module.css';
+  --button-margin-top: 18px;
   flex: 1;
-  margin-top: 18px;
-  font-size: 1.5rem;
-  border: 3px dashed;
+  margin-top: var(--button-margin-top);
+  padding: 6px 18px 1px 18px;
+  font-size: 1.1rem;
+  border: 2px dashed;
   text-align: center;
   text-decoration: none;
+}
+
+.navButton:hover {
+  margin-top: calc(var(--button-margin-top) + 2px);
+  color: black;
+  background-color: #88a688;
+  border: 2px solid;
 }
 
 @media (min-width: 760px) {

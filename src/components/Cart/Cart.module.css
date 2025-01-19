@@ -27,10 +27,16 @@
 
 .hideCartButton {
   composes: quaternaryColor from '../../styles/colors.module.css';
-  padding-right: 0;
+  margin: 0;
+  padding: 0 0 0 0;
   font-size: 30px;
   background: none;
   border: none;
+}
+
+.hideCartButton:hover {
+  background: inherit;
+  color: inherit;
 }
 
 ul {
