@@ -1,7 +1,7 @@
 .cartOverlay {
   display: flex;
   justify-content: end;
-  padding: 36px 0;
+  padding: 65px 0;
 
   position: fixed;
   right: 0;
@@ -14,6 +14,7 @@
   composes: primaryBackground from '../../styles/colors.module.css';
   composes: quaternaryColor from '../../styles/colors.module.css';
   min-width: 250px;
+  max-width: 93vw;
   padding: 8px 8px 0 20px;
 
   text-align: left;
