@@ -94,3 +94,18 @@ main {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+
+.titleHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 8px 8px 0 20px;
+}
+
+.hideCart {
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  font-size: 30px;
+  background: none;
+  border: none;
+}

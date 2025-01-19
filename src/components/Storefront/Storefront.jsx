@@ -18,6 +18,10 @@ const Storefront = () => {
     setShowCart(true);
   }
 
+  const hideCart = () => {
+    setShowCart(false);
+  }
+
   return (
     <div className={styles.layout}>
       <Header onClickViewCart={displayCart} />
@@ -39,7 +43,10 @@ const Storefront = () => {
       {showCart && (
         <aside className={styles.cartOverlay}>
           <div className={styles.cart}>
-            <h2>Cart</h2>
+            <section className={styles.titleHolder}>
+              <h2>Cart</h2>
+              <button onClick={hideCart} className={styles.hideCart}>&times;</button>
+            </section>
           </div>
         </aside>
       )}
