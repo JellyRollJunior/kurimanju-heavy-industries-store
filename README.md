@@ -5,14 +5,12 @@
 </p>
 
 ### todos:
-- button hover animations
 - Homepage animations
 - inputs max value
 - test
 - add to cart notification
 - perhaps extract cart login into js file for more complete testing? because testing react state is not convenient
 - footer
-- bug: view cart button width on mobile-tablet in between
 
 ### Features
 

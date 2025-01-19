@@ -44,6 +44,10 @@
   border-bottom-right-radius: 8px;
 }
 
+.viewCartButton {
+  max-width: 184px;
+}
+
 .hudText {
   min-width: 280px;
   margin: auto;
