@@ -27,15 +27,17 @@ const Storefront = () => {
   };
 
   const displayCart = () => {
+    const cart = document.querySelector('aside');
     document.body.style.overflow = 'hidden';
-    document.querySelector('aside').classList.add(`${cartAnimations.slideIn}`);
-    document.querySelector('aside').classList.remove(`${cartAnimations.slideOut}`);
+    cart.classList.add(`${cartAnimations.slideIn}`);
+    cart.classList.remove(`${cartAnimations.slideOut}`);
   };
 
   const hideCart = () => {
+    const cart = document.querySelector('aside');
     document.body.style.overflow = '';
-    document.querySelector('aside').classList.add(`${cartAnimations.slideOut}`);
-    document.querySelector('aside').classList.remove(`${cartAnimations.slideIn}`);
+    cart.classList.add(`${cartAnimations.slideOut}`);
+    cart.classList.remove(`${cartAnimations.slideIn}`);
   };
 
   return (

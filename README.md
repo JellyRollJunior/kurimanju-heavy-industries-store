@@ -6,13 +6,12 @@
 
 ### todos:
 - button hover animations
-- cart modal
 - quanitity increment button
 - Homepage animations
 - inputs max value
+
 - checkout button do stuff
 - remove button do stuff
-- cart open animation
 - test
 
 ### Features
