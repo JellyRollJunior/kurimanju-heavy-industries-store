@@ -21,18 +21,52 @@
   margin-left: auto;
 }
 
+.itemName {
+  composes: tertiaryColor from '../../styles/colors.module.css';
+}
+
+.quantityHolder {
+  display: flex;
+  margin-top: 6px;
+}
+
 .quantity {
   max-width: 80px;
-  margin-top: 6px;
   padding: 3px 3px 1px 3px;
 
   text-align: right;
   color: inherit;
   background-color: inherit;
   border: 2px dashed;
-  border-radius: 6px;
 }
 
-.itemName {
-  composes: tertiaryColor from '../../styles/colors.module.css';
+.quantityButton {
+  composes: quaternary from '../../styles/colors.module.css';
+  composes: primaryBackground from '../../styles/colors.module.css';
+
+  font-size: 20px;
+  width: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.decrementButton {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.incrementButton {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.quantityButton:hover {
+  color: #ffcc77;
+  background-color: black;
+}
+
+.quantityButton:active {
+  color: black;
+  background-color: #ffcc77;
+  border-color: #ffcc77;
 }

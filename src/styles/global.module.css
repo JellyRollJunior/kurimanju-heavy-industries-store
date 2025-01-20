@@ -20,4 +20,5 @@ button {
 button:hover {
   color: black;
   background-color: #ffcc77;
+  border-color: #ffcc77;
 }
