@@ -19,10 +19,11 @@ const Storefront = () => {
     accumulator += itemPrice * quantity;
     return accumulator;
   }, 0);
+  const MAX_QUANTITY_PER_ITEM = 10;
 
   const addToCart = (id, quantity) => {
     const newCart = [...cart];
-    newCart[id] += Number(quantity);
+    newCart[id] = Math.min(MAX_QUANTITY_PER_ITEM, newCart[id] + Number(quantity));
     setCart(newCart);
   };
 
@@ -73,6 +74,7 @@ const Storefront = () => {
               name={item.name}
               price={item.price}
               img={item.img}
+              maxQuantityPerItem={MAX_QUANTITY_PER_ITEM}
               onSubmit={addToCart}
             ></Card>
           ))}

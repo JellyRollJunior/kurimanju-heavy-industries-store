@@ -8,6 +8,7 @@ const Card = ({
   name = 'Unable to retrieve product info',
   price,
   img = hero,
+  maxQuantityPerItem,
   onSubmit,
 }) => {
   const [quantity, setQuantity] = useState(0);
@@ -22,7 +23,7 @@ const Card = ({
   }
 
   const incrementQuantity = () => {
-    setQuantity(Math.min(10, quantity + 1));
+    setQuantity(Math.min(maxQuantityPerItem, quantity + 1));
   }
 
   return (
