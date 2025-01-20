@@ -30,19 +30,22 @@ const Storefront = () => {
     const newCart = [...cart];
     newCart[id] = 0;
     setCart(newCart);
-  }
+  };
 
   const checkoutCart = () => {
     alert('Checkout successful');
     hideCart();
     setCart(Array(productData.length).fill(0));
-  }
+  };
 
   const displayCart = () => {
     const cart = document.querySelector('aside');
     document.body.style.overflow = 'hidden';
-    cart.classList.add(`${cartAnimations.slideIn}`);
-    cart.classList.remove(`${cartAnimations.slideOut}`);
+    cart.style.display = 'block';
+    setTimeout(() => {
+      cart.classList.add(`${cartAnimations.slideIn}`);
+      cart.classList.remove(`${cartAnimations.slideOut}`);
+    }, 0);
   };
 
   const hideCart = () => {
@@ -50,6 +53,9 @@ const Storefront = () => {
     document.body.style.overflow = '';
     cart.classList.add(`${cartAnimations.slideOut}`);
     cart.classList.remove(`${cartAnimations.slideIn}`);
+    setTimeout(() => {
+      cart.style.display = 'none';
+    }, 1000);
   };
 
   return (
