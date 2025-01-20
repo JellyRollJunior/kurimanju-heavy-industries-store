@@ -9,7 +9,8 @@
 - test
 - perhaps extract cart login into js file for more complete testing? because testing react state is not convenient
 - footer
-- change layout swap breakpoints (break earlier on mobile to table)
+- increment quantity buttons 
+
 
 ### Features
 
