@@ -16,7 +16,6 @@
 
 .headerIcon {
   width: 120px;
-  height: 120px;
   margin: auto;
   margin-top: 20px;
   object-fit: none;
@@ -56,7 +55,7 @@
   border: 2px solid;
 }
 
-.hudText {
+.probe {
   composes: secondaryColor from '../../styles/colors.module.css';
   margin: -24px 12px 12px 12px;
   padding: 36px 24px 24px 24px;
@@ -88,14 +87,66 @@
   .hero {
     max-width: none;
     width: 100%;
-    margin: 48px 24px 0 -32px;
+    margin: 68px 24px 0 -32px;
     padding: 36px 42px;
   }
 
-  .hudText {
+  .probe {
     width: 70%;
     margin-top: -26px;
     padding: 36px 48px;
     justify-self: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
+  }
+
+  .headerIcon {
+    width: 160px;
+  }
+
+  .logo {
+    width: 55%;
+    margin-top: -15px;
+    background-color: none;
+  }
+
+  .navButton {
+    max-width: 300px;
+  }
+
+  .hero {
+    padding: 46px 54px;
+    margin-left: -42px;
+  }
+
+  .probe {
+    padding: 48px 64px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+  }
+
+  .navButton {
+    max-width: 500px;
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 56px 68px;
+  }
+
+  .probe {
+    padding: 64px 86px;
   }
 }

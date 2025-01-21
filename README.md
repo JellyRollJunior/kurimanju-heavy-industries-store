@@ -5,7 +5,7 @@
 </p>
 
 ### todos:
-- Re style Homepage (with animations)
+- replace hud text homepage with a new interesting photo (maybe add one more too on desktop / tablet)
 - test
 - perhaps extract cart login into js file for more complete testing? because testing react state is not convenient
 - footer
