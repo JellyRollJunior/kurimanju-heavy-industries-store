@@ -7,7 +7,7 @@
 }
 
 .logo {
-  composes: logo from '../Homepage/Homepage.module.css';
+  margin: auto;
   margin-top: -8px;
 }
 
