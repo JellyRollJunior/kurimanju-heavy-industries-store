@@ -50,6 +50,7 @@
 
 .hero {
   composes: quaternaryColor from '../../styles/colors.module.css';
+  max-width: 450px;
   margin: -24px 32px 0 32px;
   padding: 36px 24px 36px 24px;
   border: 2px solid;
@@ -62,57 +63,39 @@
   border: 2px solid;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 700px) {
   .layout {
     display: grid;
-    grid-template-columns: 1fr 1.8fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 370px;
   }
 
   .nav {
-    margin-top: 120px;
-    translate: 24px;
+    margin: 12px 12px 0 12px;
+    padding: 12px 18px;
   }
 
   .logo {
-    width: 100%;
+    margin-top: 3px;
+  }
+
+  .navButton {
+    max-width: 210px;
+    margin-top: 12px;
+    border: 3px dashed;
   }
 
   .hero {
-    margin-top: 0;
-    padding: 46px 46px 46px 0;
+    max-width: none;
+    width: 100%;
+    margin: 48px 24px 0 -32px;
+    padding: 36px 42px;
   }
 
-  .navButton {
-    border: 5px dashed;
-  }
-}
-
-@media (min-width: 1024px) {
-  .navButton {
-    margin-top: 36px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .nav {
-    margin-top: 160px;
-    translate: 64px;
-  }
-
-  .navButton {
-    margin-top: 64px;
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .buttonHolder {
-    max-width: 600px;
-  }
-
-  .navButton {
-    margin-top: 180px;
-    font-size: 3rem;
-    border: 10px dashed;
+  .hudText {
+    width: 70%;
+    margin-top: -26px;
+    padding: 36px 48px;
+    justify-self: center;
   }
 }
