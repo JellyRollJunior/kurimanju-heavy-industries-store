@@ -1,21 +1,33 @@
-.layout {
+.wrapper {
   composes: primaryBackground from '../../styles/colors.module.css';
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav {
-  margin-top: 80px;
+  composes: tertiaryColor from '../../styles/colors.module.css';
+  margin: 12px 12px 0 12px;
+  padding-bottom: 36px;
+  background-color: none;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.headerIcon {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  margin-top: 20px;
+  object-fit: none;
 }
 
 .logo {
   margin: auto;
-}
-
-.hero {
-  width: 100%;
-  margin-top: 64px;
+  margin-top: -8px;
 }
 
 .buttonHolder {
@@ -45,6 +57,13 @@
   border: 2px solid;
 }
 
+.hero {
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  margin: -24px 32px 0 32px;
+  padding: 36px 24px 24px 24px;
+  border: 2px solid;
+}
+
 @media (min-width: 760px) {
   .layout {
     display: grid;
@@ -62,7 +81,7 @@
 
   .hero {
     margin-top: 0;
-    padding: 46px 46px 0 0;
+    padding: 46px 46px 46px 0;
   }
 
   .navButton {
