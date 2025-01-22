@@ -5,6 +5,7 @@ import { Card } from '../Card/Card.jsx';
 import { Cart } from '../Cart/Cart.jsx';
 import styles from './Storefront.module.css';
 import cartAnimations from '../Cart/Cart.module.css';
+import { Footer } from '../Footer/Footer.jsx';
 
 const Storefront = () => {
   // const [cart, setCart] = useState(Array(productData.length).fill(0));
@@ -70,6 +71,7 @@ const Storefront = () => {
           ))}
         </section>
       </main>
+      <Footer />
       <Cart
         cart={cart}
         hideCart={hideCart}

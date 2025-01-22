@@ -1,0 +1,10 @@
+.footer {
+  composes: quaternaryColor from '../../styles/colors.module.css';
+  grid-column: 2 / -1;
+  text-align: center;
+
+  border: 2px solid;
+  border-radius: 4px;
+  margin: 0 12px 12px 12px;
+  padding: 18px 12px
+}
