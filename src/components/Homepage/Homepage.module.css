@@ -65,88 +65,89 @@
 @media (min-width: 700px) {
   .layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 370px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
   }
 
   .nav {
-    margin: 12px 12px 0 12px;
-    padding: 12px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0 0 3%;
+  }
+
+  .headerIcon {
+    width: 25%;
+    height: auto;
+    margin: 0;
+    object-fit: contain;
   }
 
   .logo {
-    margin-top: 3px;
+    width: 85%;
+    margin: 0;
   }
 
   .navButton {
-    max-width: 210px;
-    margin-top: 12px;
-    border: 3px dashed;
+    max-width: none;
+    width: 60%;
+    margin: 0;
   }
 
   .hero {
+    align-self: center;
     max-width: none;
     width: 100%;
-    margin: 68px 24px 0 -32px;
-    padding: 36px 42px;
+    margin: 10% 0 10% -8%;
+    padding: 10%;
   }
 
   .probe {
-    width: 70%;
-    margin-top: -26px;
-    padding: 36px 48px;
     justify-self: center;
+    max-width: none;
+    width: 80%;
+    margin: -6% 0 0 0;
+    padding: 10%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nav,
+  .hero,
+  .probe {
+    border: 3px solid;
+  }
+
+  .navButton {
+    font-size: 1.3rem;
+    border: 3px dashed;
   }
 }
 
 @media (min-width: 1400px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 450px;
-  }
-
-  .headerIcon {
-    width: 160px;
-  }
-
-  .logo {
-    width: 55%;
-    margin-top: -15px;
-    background-color: none;
+  .nav,
+  .hero,
+  .probe {
+    border: 4px solid;
   }
 
   .navButton {
-    max-width: 300px;
-  }
-
-  .hero {
-    padding: 46px 54px;
-    margin-left: -42px;
-  }
-
-  .probe {
-    padding: 48px 64px;
+    font-size: 1.8rem;
+    border: 3px dashed;
   }
 }
 
 @media (min-width: 2000px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 550px;
+  .nav,
+  .hero,
+  .probe {
+    border: 8px solid;
   }
 
   .navButton {
-    max-width: 500px;
-    font-size: 2rem;
-  }
-
-  .hero {
-    padding: 56px 68px;
-  }
-
-  .probe {
-    padding: 64px 86px;
+    font-size: 3rem;
+    border: 6px dashed;
   }
 }
