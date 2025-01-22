@@ -3,7 +3,13 @@ import { describe, expect, it, vi } from 'vitest';
 import { Card } from './Card';
 import { render, screen } from '@testing-library/react';
 
-describe('Shop item card', () => {
+describe('Shop product card', () => {
+  it('Renders produce image, title, price, quantity controls, and an add to cart button', () => {
+    const { container } = render(<Card />);
+
+    expect(container).toMatchSnapshot();
+  })
+
   it('Calls onSubmit on clicking add to cart button', async () => {
     const onSubmit = vi.fn();
     const user = userEvent.setup();

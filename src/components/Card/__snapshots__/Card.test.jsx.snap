@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Shop product card > Renders produce image, title, price, quantity controls, and an add to cart button 1`] = `
+<div>
+  <div
+    class="_card_1f2933"
+  >
+    <img
+      alt="Unable to retrieve product info"
+      src="/src/assets/hero.png"
+    />
+    <form
+      class="_form_1f2933"
+    >
+      <h3
+        class="_itemName_1f2933"
+      >
+        Unable to retrieve product info
+      </h3>
+      <h4 />
+      <div
+        class="_quantityHolder_1f2933"
+      >
+        <button
+          class="_quantityButton_1f2933 _decrementButton_1f2933"
+        >
+          -
+        </button>
+        <input
+          class="_quantity_1f2933"
+          disabled=""
+          required=""
+          type="number"
+          value="0"
+        />
+        <button
+          class="_quantityButton_1f2933 _incrementButton_1f2933"
+        >
+          +
+        </button>
+      </div>
+      <button
+        class="_submitBtn_1f2933"
+      >
+        Add to Cart
+      </button>
+    </form>
+  </div>
+</div>
+`;
