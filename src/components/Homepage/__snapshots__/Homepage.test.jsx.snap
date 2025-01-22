@@ -10,25 +10,31 @@ exports[`Homepage component > Renders Homepage with hero image, company logo, an
     >
       <img
         alt=""
+        class="_headerIcon_1f8969"
+        src="/src/assets/header-icon.png"
+      />
+      <img
+        alt=""
         class="_logo_1f8969"
         src="/src/assets/logo.svg"
       />
-      <div
-        class="_buttonHolder_1f8969"
+      <a
+        class="_navButton_1f8969"
+        data-discover="true"
+        href="/storefront"
       >
-        <a
-          class="_navButton_1f8969"
-          data-discover="true"
-          href="/storefront"
-        >
-          TAKE CONTROL
-        </a>
-      </div>
+        TAKE CONTROL
+      </a>
     </nav>
     <img
       alt="Mecha schematics"
       class="_hero_1f8969"
       src="/src/assets/hero.png"
+    />
+    <img
+      alt="Space probe"
+      class="_probe_1f8969"
+      src="/src/assets/probe.png"
     />
   </div>
 </div>

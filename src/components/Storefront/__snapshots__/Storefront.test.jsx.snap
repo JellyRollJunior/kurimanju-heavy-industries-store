@@ -1,0 +1,513 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Storefront component > Renders header, shop, shop items, and cart 1`] = `
+<div>
+  <div
+    class="_layout_5546c3"
+  >
+    <header
+      class="_header_63c2ea"
+    >
+      <img
+        alt=""
+        class="_headerIcon_63c2ea"
+        src="/src/assets/header-icon.png"
+      />
+      <img
+        alt=""
+        class="_logo_63c2ea"
+        src="/src/assets/logo.svg"
+      />
+      <div
+        class="_headerDecoration_63c2ea"
+      >
+        <p
+          class="_chineseText_63c2ea"
+        >
+          機体究更
+          <br />
+          武裝解除
+          <br />
+          決定中止
+        </p>
+        <p
+          class="_englishText_63c2ea"
+        >
+          F91 EARTH-WIND RISES
+          <br />
+          LIBERATION X-97
+          <br />
+          DE- 524 - ITY
+        </p>
+        <div />
+        <img
+          alt=""
+          class="_portrait_63c2ea"
+          src="/src/assets/header-portrait.png"
+        />
+        <div />
+        <button
+          class="_viewCartButton_63c2ea"
+        >
+          View Cart
+        </button>
+      </div>
+      <img
+        alt=""
+        class="_hudText_63c2ea"
+        src="/src/assets/header-hud-text.png"
+      />
+    </header>
+    <main>
+      <header
+        class="_shopHeader_5546c3"
+      >
+        <h2
+          class="_shopHeaderTitle_5546c3"
+        >
+          SHOP
+        </h2>
+      </header>
+      <section
+        class="_shop_5546c3"
+      >
+        <div
+          class="_card_1f2933"
+        >
+          <img
+            alt="X-4 Base"
+            src="/src/assets/X4_base.png"
+          />
+          <form
+            class="_form_1f2933"
+          >
+            <h3
+              class="_itemName_1f2933"
+            >
+              X-4 Base
+            </h3>
+            <h4>
+              90 000 000
+            </h4>
+            <div
+              class="_quantityHolder_1f2933"
+            >
+              <button
+                class="_quantityButton_1f2933 _decrementButton_1f2933"
+              >
+                -
+              </button>
+              <input
+                class="_quantity_1f2933"
+                disabled=""
+                required=""
+                type="number"
+                value="0"
+              />
+              <button
+                class="_quantityButton_1f2933 _incrementButton_1f2933"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="_submitBtn_1f2933"
+            >
+              Add to Cart
+            </button>
+          </form>
+        </div>
+        <div
+          class="_card_1f2933"
+        >
+          <img
+            alt="X-4 Stealth"
+            src="/src/assets/X4_stealth.png"
+          />
+          <form
+            class="_form_1f2933"
+          >
+            <h3
+              class="_itemName_1f2933"
+            >
+              X-4 Stealth
+            </h3>
+            <h4>
+              95 000 000
+            </h4>
+            <div
+              class="_quantityHolder_1f2933"
+            >
+              <button
+                class="_quantityButton_1f2933 _decrementButton_1f2933"
+              >
+                -
+              </button>
+              <input
+                class="_quantity_1f2933"
+                disabled=""
+                required=""
+                type="number"
+                value="0"
+              />
+              <button
+                class="_quantityButton_1f2933 _incrementButton_1f2933"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="_submitBtn_1f2933"
+            >
+              Add to Cart
+            </button>
+          </form>
+        </div>
+        <div
+          class="_card_1f2933"
+        >
+          <img
+            alt="X-4 Respond"
+            src="/src/assets/X4_respond.png"
+          />
+          <form
+            class="_form_1f2933"
+          >
+            <h3
+              class="_itemName_1f2933"
+            >
+              X-4 Respond
+            </h3>
+            <h4>
+              95 000 000
+            </h4>
+            <div
+              class="_quantityHolder_1f2933"
+            >
+              <button
+                class="_quantityButton_1f2933 _decrementButton_1f2933"
+              >
+                -
+              </button>
+              <input
+                class="_quantity_1f2933"
+                disabled=""
+                required=""
+                type="number"
+                value="0"
+              />
+              <button
+                class="_quantityButton_1f2933 _incrementButton_1f2933"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="_submitBtn_1f2933"
+            >
+              Add to Cart
+            </button>
+          </form>
+        </div>
+        <div
+          class="_card_1f2933"
+        >
+          <img
+            alt="X-4 Enforce"
+            src="/src/assets/X4_enforce.png"
+          />
+          <form
+            class="_form_1f2933"
+          >
+            <h3
+              class="_itemName_1f2933"
+            >
+              X-4 Enforce
+            </h3>
+            <h4>
+              100 000 000
+            </h4>
+            <div
+              class="_quantityHolder_1f2933"
+            >
+              <button
+                class="_quantityButton_1f2933 _decrementButton_1f2933"
+              >
+                -
+              </button>
+              <input
+                class="_quantity_1f2933"
+                disabled=""
+                required=""
+                type="number"
+                value="0"
+              />
+              <button
+                class="_quantityButton_1f2933 _incrementButton_1f2933"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="_submitBtn_1f2933"
+            >
+              Add to Cart
+            </button>
+          </form>
+        </div>
+        <div
+          class="_card_1f2933"
+        >
+          <img
+            alt="X-4 Supress"
+            src="/src/assets/X4_supress.png"
+          />
+          <form
+            class="_form_1f2933"
+          >
+            <h3
+              class="_itemName_1f2933"
+            >
+              X-4 Supress
+            </h3>
+            <h4>
+              120 000 000
+            </h4>
+            <div
+              class="_quantityHolder_1f2933"
+            >
+              <button
+                class="_quantityButton_1f2933 _decrementButton_1f2933"
+              >
+                -
+              </button>
+              <input
+                class="_quantity_1f2933"
+                disabled=""
+                required=""
+                type="number"
+                value="0"
+              />
+              <button
+                class="_quantityButton_1f2933 _incrementButton_1f2933"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="_submitBtn_1f2933"
+            >
+              Add to Cart
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <aside
+      class="_cart_f8af68"
+    >
+      <section
+        class="_titleHolder_f8af68"
+      >
+        <h2>
+          Cart
+        </h2>
+        <button
+          class="_hideCartButton_f8af68"
+        >
+          ×
+        </button>
+      </section>
+      <section>
+        <h3
+          class="_subtotal_2d26a7"
+        >
+          Subtotal (
+          5
+           items):
+        </h3>
+        <h3
+          class="_subtotal_2d26a7"
+        >
+          $ 
+          500 000 000
+        </h3>
+        <button
+          class="_checkoutButton_2d26a7"
+        >
+          Checkout
+        </button>
+      </section>
+      <section>
+        <ul>
+          <li
+            class="_cartItem_61ad6d"
+          >
+            <img
+              alt="X-4 Base"
+              src="/src/assets/X4_base.png"
+            />
+            <div
+              class="_data_61ad6d"
+            >
+              <h3
+                class="_name_61ad6d"
+              >
+                X-4 Base
+              </h3>
+              <h4
+                class="_price_61ad6d"
+              >
+                90 000 000
+              </h4>
+              <h4
+                class="_quantity_61ad6d"
+              >
+                Quantity: 
+                1
+              </h4>
+              <button
+                class="_removeButton_61ad6d"
+              >
+                Remove
+              </button>
+            </div>
+          </li>
+          <li
+            class="_cartItem_61ad6d"
+          >
+            <img
+              alt="X-4 Stealth"
+              src="/src/assets/X4_stealth.png"
+            />
+            <div
+              class="_data_61ad6d"
+            >
+              <h3
+                class="_name_61ad6d"
+              >
+                X-4 Stealth
+              </h3>
+              <h4
+                class="_price_61ad6d"
+              >
+                95 000 000
+              </h4>
+              <h4
+                class="_quantity_61ad6d"
+              >
+                Quantity: 
+                1
+              </h4>
+              <button
+                class="_removeButton_61ad6d"
+              >
+                Remove
+              </button>
+            </div>
+          </li>
+          <li
+            class="_cartItem_61ad6d"
+          >
+            <img
+              alt="X-4 Respond"
+              src="/src/assets/X4_respond.png"
+            />
+            <div
+              class="_data_61ad6d"
+            >
+              <h3
+                class="_name_61ad6d"
+              >
+                X-4 Respond
+              </h3>
+              <h4
+                class="_price_61ad6d"
+              >
+                95 000 000
+              </h4>
+              <h4
+                class="_quantity_61ad6d"
+              >
+                Quantity: 
+                1
+              </h4>
+              <button
+                class="_removeButton_61ad6d"
+              >
+                Remove
+              </button>
+            </div>
+          </li>
+          <li
+            class="_cartItem_61ad6d"
+          >
+            <img
+              alt="X-4 Enforce"
+              src="/src/assets/X4_enforce.png"
+            />
+            <div
+              class="_data_61ad6d"
+            >
+              <h3
+                class="_name_61ad6d"
+              >
+                X-4 Enforce
+              </h3>
+              <h4
+                class="_price_61ad6d"
+              >
+                100 000 000
+              </h4>
+              <h4
+                class="_quantity_61ad6d"
+              >
+                Quantity: 
+                1
+              </h4>
+              <button
+                class="_removeButton_61ad6d"
+              >
+                Remove
+              </button>
+            </div>
+          </li>
+          <li
+            class="_cartItem_61ad6d"
+          >
+            <img
+              alt="X-4 Supress"
+              src="/src/assets/X4_supress.png"
+            />
+            <div
+              class="_data_61ad6d"
+            >
+              <h3
+                class="_name_61ad6d"
+              >
+                X-4 Supress
+              </h3>
+              <h4
+                class="_price_61ad6d"
+              >
+                120 000 000
+              </h4>
+              <h4
+                class="_quantity_61ad6d"
+              >
+                Quantity: 
+                1
+              </h4>
+              <button
+                class="_removeButton_61ad6d"
+              >
+                Remove
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+</div>
+`;
