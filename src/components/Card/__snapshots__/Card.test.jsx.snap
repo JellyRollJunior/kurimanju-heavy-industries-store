@@ -9,42 +9,40 @@ exports[`Shop product card > Renders produce image, title, price, quantity contr
       alt="Unable to retrieve product info"
       src="/src/assets/hero.png"
     />
-    <form
-      class="_form_1f2933"
+    <h3
+      class="_itemName_1f2933"
     >
-      <h3
-        class="_itemName_1f2933"
-      >
-        Unable to retrieve product info
-      </h3>
-      <h4 />
-      <div
-        class="_quantityHolder_1f2933"
-      >
-        <button
-          class="_quantityButton_1f2933 _decrementButton_1f2933"
-        >
-          -
-        </button>
-        <input
-          class="_quantity_1f2933"
-          disabled=""
-          required=""
-          type="number"
-          value="0"
-        />
-        <button
-          class="_quantityButton_1f2933 _incrementButton_1f2933"
-        >
-          +
-        </button>
-      </div>
+      Unable to retrieve product info
+    </h3>
+    <h4
+      class="_price_1f2933"
+    />
+    <div
+      class="_quantityHolder_1f2933"
+    >
       <button
-        class="_submitBtn_1f2933"
+        class="_quantityButton_1f2933 _decrementButton_1f2933"
       >
-        Add to Cart
+        -
       </button>
-    </form>
+      <input
+        class="_quantity_1f2933"
+        disabled=""
+        required=""
+        type="number"
+        value="0"
+      />
+      <button
+        class="_quantityButton_1f2933 _incrementButton_1f2933"
+      >
+        +
+      </button>
+    </div>
+    <button
+      class="_submitBtn_1f2933"
+    >
+      Add to Cart
+    </button>
   </div>
 </div>
 `;

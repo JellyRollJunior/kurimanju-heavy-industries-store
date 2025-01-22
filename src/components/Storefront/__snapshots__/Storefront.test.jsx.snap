@@ -78,44 +78,42 @@ exports[`Storefront component > Renders header, shop, shop items, and cart 1`] =
             alt="X-4 Base"
             src="/src/assets/X4_base.png"
           />
-          <form
-            class="_form_1f2933"
+          <h3
+            class="_itemName_1f2933"
           >
-            <h3
-              class="_itemName_1f2933"
-            >
-              X-4 Base
-            </h3>
-            <h4>
-              90 000 000
-            </h4>
-            <div
-              class="_quantityHolder_1f2933"
-            >
-              <button
-                class="_quantityButton_1f2933 _decrementButton_1f2933"
-              >
-                -
-              </button>
-              <input
-                class="_quantity_1f2933"
-                disabled=""
-                required=""
-                type="number"
-                value="0"
-              />
-              <button
-                class="_quantityButton_1f2933 _incrementButton_1f2933"
-              >
-                +
-              </button>
-            </div>
+            X-4 Base
+          </h3>
+          <h4
+            class="_price_1f2933"
+          >
+            90 000 000
+          </h4>
+          <div
+            class="_quantityHolder_1f2933"
+          >
             <button
-              class="_submitBtn_1f2933"
+              class="_quantityButton_1f2933 _decrementButton_1f2933"
             >
-              Add to Cart
+              -
             </button>
-          </form>
+            <input
+              class="_quantity_1f2933"
+              disabled=""
+              required=""
+              type="number"
+              value="0"
+            />
+            <button
+              class="_quantityButton_1f2933 _incrementButton_1f2933"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="_submitBtn_1f2933"
+          >
+            Add to Cart
+          </button>
         </div>
         <div
           class="_card_1f2933"
@@ -124,44 +122,42 @@ exports[`Storefront component > Renders header, shop, shop items, and cart 1`] =
             alt="X-4 Stealth"
             src="/src/assets/X4_stealth.png"
           />
-          <form
-            class="_form_1f2933"
+          <h3
+            class="_itemName_1f2933"
           >
-            <h3
-              class="_itemName_1f2933"
-            >
-              X-4 Stealth
-            </h3>
-            <h4>
-              95 000 000
-            </h4>
-            <div
-              class="_quantityHolder_1f2933"
-            >
-              <button
-                class="_quantityButton_1f2933 _decrementButton_1f2933"
-              >
-                -
-              </button>
-              <input
-                class="_quantity_1f2933"
-                disabled=""
-                required=""
-                type="number"
-                value="0"
-              />
-              <button
-                class="_quantityButton_1f2933 _incrementButton_1f2933"
-              >
-                +
-              </button>
-            </div>
+            X-4 Stealth
+          </h3>
+          <h4
+            class="_price_1f2933"
+          >
+            95 000 000
+          </h4>
+          <div
+            class="_quantityHolder_1f2933"
+          >
             <button
-              class="_submitBtn_1f2933"
+              class="_quantityButton_1f2933 _decrementButton_1f2933"
             >
-              Add to Cart
+              -
             </button>
-          </form>
+            <input
+              class="_quantity_1f2933"
+              disabled=""
+              required=""
+              type="number"
+              value="0"
+            />
+            <button
+              class="_quantityButton_1f2933 _incrementButton_1f2933"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="_submitBtn_1f2933"
+          >
+            Add to Cart
+          </button>
         </div>
         <div
           class="_card_1f2933"
@@ -170,44 +166,42 @@ exports[`Storefront component > Renders header, shop, shop items, and cart 1`] =
             alt="X-4 Respond"
             src="/src/assets/X4_respond.png"
           />
-          <form
-            class="_form_1f2933"
+          <h3
+            class="_itemName_1f2933"
           >
-            <h3
-              class="_itemName_1f2933"
-            >
-              X-4 Respond
-            </h3>
-            <h4>
-              95 000 000
-            </h4>
-            <div
-              class="_quantityHolder_1f2933"
-            >
-              <button
-                class="_quantityButton_1f2933 _decrementButton_1f2933"
-              >
-                -
-              </button>
-              <input
-                class="_quantity_1f2933"
-                disabled=""
-                required=""
-                type="number"
-                value="0"
-              />
-              <button
-                class="_quantityButton_1f2933 _incrementButton_1f2933"
-              >
-                +
-              </button>
-            </div>
+            X-4 Respond
+          </h3>
+          <h4
+            class="_price_1f2933"
+          >
+            95 000 000
+          </h4>
+          <div
+            class="_quantityHolder_1f2933"
+          >
             <button
-              class="_submitBtn_1f2933"
+              class="_quantityButton_1f2933 _decrementButton_1f2933"
             >
-              Add to Cart
+              -
             </button>
-          </form>
+            <input
+              class="_quantity_1f2933"
+              disabled=""
+              required=""
+              type="number"
+              value="0"
+            />
+            <button
+              class="_quantityButton_1f2933 _incrementButton_1f2933"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="_submitBtn_1f2933"
+          >
+            Add to Cart
+          </button>
         </div>
         <div
           class="_card_1f2933"
@@ -216,44 +210,42 @@ exports[`Storefront component > Renders header, shop, shop items, and cart 1`] =
             alt="X-4 Enforce"
             src="/src/assets/X4_enforce.png"
           />
-          <form
-            class="_form_1f2933"
+          <h3
+            class="_itemName_1f2933"
           >
-            <h3
-              class="_itemName_1f2933"
-            >
-              X-4 Enforce
-            </h3>
-            <h4>
-              100 000 000
-            </h4>
-            <div
-              class="_quantityHolder_1f2933"
-            >
-              <button
-                class="_quantityButton_1f2933 _decrementButton_1f2933"
-              >
-                -
-              </button>
-              <input
-                class="_quantity_1f2933"
-                disabled=""
-                required=""
-                type="number"
-                value="0"
-              />
-              <button
-                class="_quantityButton_1f2933 _incrementButton_1f2933"
-              >
-                +
-              </button>
-            </div>
+            X-4 Enforce
+          </h3>
+          <h4
+            class="_price_1f2933"
+          >
+            100 000 000
+          </h4>
+          <div
+            class="_quantityHolder_1f2933"
+          >
             <button
-              class="_submitBtn_1f2933"
+              class="_quantityButton_1f2933 _decrementButton_1f2933"
             >
-              Add to Cart
+              -
             </button>
-          </form>
+            <input
+              class="_quantity_1f2933"
+              disabled=""
+              required=""
+              type="number"
+              value="0"
+            />
+            <button
+              class="_quantityButton_1f2933 _incrementButton_1f2933"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="_submitBtn_1f2933"
+          >
+            Add to Cart
+          </button>
         </div>
         <div
           class="_card_1f2933"
@@ -262,47 +254,71 @@ exports[`Storefront component > Renders header, shop, shop items, and cart 1`] =
             alt="X-4 Supress"
             src="/src/assets/X4_supress.png"
           />
-          <form
-            class="_form_1f2933"
+          <h3
+            class="_itemName_1f2933"
           >
-            <h3
-              class="_itemName_1f2933"
-            >
-              X-4 Supress
-            </h3>
-            <h4>
-              120 000 000
-            </h4>
-            <div
-              class="_quantityHolder_1f2933"
-            >
-              <button
-                class="_quantityButton_1f2933 _decrementButton_1f2933"
-              >
-                -
-              </button>
-              <input
-                class="_quantity_1f2933"
-                disabled=""
-                required=""
-                type="number"
-                value="0"
-              />
-              <button
-                class="_quantityButton_1f2933 _incrementButton_1f2933"
-              >
-                +
-              </button>
-            </div>
+            X-4 Supress
+          </h3>
+          <h4
+            class="_price_1f2933"
+          >
+            120 000 000
+          </h4>
+          <div
+            class="_quantityHolder_1f2933"
+          >
             <button
-              class="_submitBtn_1f2933"
+              class="_quantityButton_1f2933 _decrementButton_1f2933"
             >
-              Add to Cart
+              -
             </button>
-          </form>
+            <input
+              class="_quantity_1f2933"
+              disabled=""
+              required=""
+              type="number"
+              value="0"
+            />
+            <button
+              class="_quantityButton_1f2933 _incrementButton_1f2933"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="_submitBtn_1f2933"
+          >
+            Add to Cart
+          </button>
         </div>
       </section>
     </main>
+    <footer
+      class="_footer_eb428f"
+    >
+      Created by 
+      <a
+        class="_link_eb428f"
+        href="https://github.com/JellyRollJunior"
+      >
+        JellyRollJunior
+      </a>
+      <br />
+      Assets from 
+      <a
+        class="_link_eb428f"
+        href="https://www.kogado.com/"
+      >
+        Power Dolls Kogado Studios
+      </a>
+       and 
+      <a
+        class="_link_eb428f"
+        href="https://www.theleagueofmoveabletype.com/orbitron?style=light"
+      >
+        Matt Mcinerney
+      </a>
+    </footer>
     <aside
       class="_cart_f8af68"
     >

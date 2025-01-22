@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer component > Renders site acknowledgements 1`] = `
+<div>
+  <footer
+    class="_footer_eb428f"
+  >
+    Created by 
+    <a
+      class="_link_eb428f"
+      href="https://github.com/JellyRollJunior"
+    >
+      JellyRollJunior
+    </a>
+    <br />
+    Assets from 
+    <a
+      class="_link_eb428f"
+      href="https://www.kogado.com/"
+    >
+      Power Dolls Kogado Studios
+    </a>
+     and 
+    <a
+      class="_link_eb428f"
+      href="https://www.theleagueofmoveabletype.com/orbitron?style=light"
+    >
+      Matt Mcinerney
+    </a>
+  </footer>
+</div>
+`;
