@@ -11,7 +11,7 @@ describe('Shopping cart slide component', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('Cart calls hideCart when x button is clicked', async () => {
+  it('Calls hideCart when x button is clicked', async () => {
     const cart = [1, 1, 1, 1, 1];
     const hideCart = vi.fn();
     render(<Cart cart={cart} hideCart={hideCart} />);

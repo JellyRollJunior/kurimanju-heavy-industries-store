@@ -4,7 +4,7 @@ import { CartInfo } from '../CartInfo/CartInfo.jsx';
 import { CartItem } from '../CartItem/CartItem.jsx';
 
 const Cart = ({
-  cart,
+  cart = [],
   hideCart,
   checkoutCart,
   removeFromCart,

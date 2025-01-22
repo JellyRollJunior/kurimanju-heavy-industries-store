@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart info component > Renders cart item quantity, subtotal, and checkout button 1`] = `
+<div>
+  <section>
+    <h3
+      class="_subtotal_2d26a7"
+    >
+      Subtotal (
+      5
+       items):
+    </h3>
+    <h3
+      class="_subtotal_2d26a7"
+    >
+      $ 
+      10
+    </h3>
+    <button
+      class="_checkoutButton_2d26a7"
+    >
+      Checkout
+    </button>
+  </section>
+</div>
+`;
