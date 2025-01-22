@@ -9,16 +9,6 @@ import cartAnimations from '../Cart/Cart.module.css';
 const Storefront = () => {
   // const [cart, setCart] = useState(Array(productData.length).fill(0));
   const [cart, setCart] = useState([1, 1, 1, 1, 1]);
-  const numCartItems = cart.reduce((total, quantity) => (total += quantity), 0);
-  const subtotal = cart.reduce((accumulator, quantity, index) => {
-    const itemPrice = Number(
-      productData
-        .find((product) => product.id == index)
-        .price.replace(/\s+/g, '')
-    );
-    accumulator += itemPrice * quantity;
-    return accumulator;
-  }, 0);
   const MAX_QUANTITY_PER_ITEM = 10;
 
   const addToCart = (id, quantity) => {
@@ -82,8 +72,6 @@ const Storefront = () => {
       </main>
       <Cart
         cart={cart}
-        numCartItems={numCartItems}
-        subtotal={subtotal}
         hideCart={hideCart}
         checkoutCart={checkoutCart}
         removeFromCart={removeFromCart}
