@@ -10,12 +10,6 @@
   border-radius: 4px;
 }
 
-.form {
-  composes: primaryColor from '../../styles/colors.module.css';
-  display: flex;
-  flex-direction: column;
-}
-
 .form > * {
   display: block;
   margin-left: auto;
@@ -25,9 +19,15 @@
   composes: tertiaryColor from '../../styles/colors.module.css';
 }
 
+.price {
+  composes: primaryColor from '../../styles/colors.module.css';
+}
+
 .quantityHolder {
+  composes: primaryColor from '../../styles/colors.module.css';
   display: flex;
   margin-top: 6px;
+  margin-left: auto;
 }
 
 .quantity {

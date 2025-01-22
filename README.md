@@ -7,8 +7,6 @@
 ### todos:
 - perhaps extract cart login into js file for more complete testing? because testing react state is not convenient
 - footer
-- Bug: clicking increment button adds item to cart
-
 
 ### Features
 
