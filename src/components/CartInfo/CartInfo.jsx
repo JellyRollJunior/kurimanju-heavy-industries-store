@@ -1,4 +1,4 @@
-import styles from './Cartinfo.module.css';
+import styles from './CartInfo.module.css';
 
 const CartInfo = ({ numCartItems = 0, subtotal = 0, checkoutCart }) => {
   const formattedSubtotal = subtotal.toLocaleString('en-US').replace(/,/g, ' ');
