@@ -22,6 +22,7 @@
 - First time using CSS modules (composes is kinda neat)
 - First time using vitest for a project (mocking components, mocking functions, render, snapshot testing, and userEvent)
 - First time playing around with animations!
+- Netlify redirects :O
 
 ## Responsive Layout Showcase
 
