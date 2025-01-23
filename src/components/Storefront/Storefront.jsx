@@ -8,8 +8,7 @@ import cartAnimations from '../Cart/Cart.module.css';
 import { Footer } from '../Footer/Footer.jsx';
 
 const Storefront = () => {
-  // const [cart, setCart] = useState(Array(productData.length).fill(0));
-  const [cart, setCart] = useState([1, 1, 1, 1, 1]);
+  const [cart, setCart] = useState(Array(productData.length).fill(0));
   const MAX_QUANTITY_PER_ITEM = 10;
 
   const addToCart = (id, quantity) => {

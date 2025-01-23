@@ -5,10 +5,13 @@
 </p>
 
 ### Features
+- Stylish homepage and storefront!
+- Slide-in shopping cart
+- Shopping cart implemented with react  
 
 ### Stack
 - React - JSX - Vitest
-- CSS
+- CSS - CSS modules
 - HTML
 - Git / GitHub
 - Netlify
@@ -19,7 +22,7 @@
 
 | Mobile | Tablet | Laptop  | 
 |  ----- |  ----- |  ------ | 
-| 425px  | 768px  | 1440px  | 
+| 320px  | 768px  | 1440px  | 
 
 
 ## Retrospective (aka yapping)

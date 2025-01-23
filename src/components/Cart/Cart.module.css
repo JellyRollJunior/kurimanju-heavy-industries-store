@@ -1,7 +1,7 @@
 .cart {
   composes: primaryBackground from '../../styles/colors.module.css';
   composes: quaternaryColor from '../../styles/colors.module.css';
-  --cart-width: 290px;
+  --cart-width: 300px;
   position: fixed;
   right: calc(-1 * var(--cart-width));
 

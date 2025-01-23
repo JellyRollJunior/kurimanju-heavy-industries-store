@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 .layout {
   composes: primaryBackground from '../../styles/colors.module.css';
   display: flex;
