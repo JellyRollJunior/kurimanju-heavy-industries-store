@@ -1,8 +1,8 @@
-import x4_base from './../assets/x4_base.png';
-import x4_stealth from './../assets/x4_stealth.png';
-import x4_respond from './../assets/x4_respond.png';
-import x4_enforce from './../assets/x4_enforce.png';
-import x4_supress from './../assets/x4_supress.png';
+import x4_base from './../assets/X4_base.png';
+import x4_stealth from './../assets/X4_stealth.png';
+import x4_respond from './../assets/X4_respond.png';
+import x4_enforce from './../assets/X4_enforce.png';
+import x4_supress from './../assets/X4_supress.png';
 
 const productData = [
     {
