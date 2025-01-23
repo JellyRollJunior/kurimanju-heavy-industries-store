@@ -1,5 +1,5 @@
 <h1 align="center">Kurimanju Heavy Industries Storefront</h1>
-<h3 align="center">Purchase mechas from Kurimanju Heavy Industries <a href=''>here</a>!</h3>
+<h3 align="center">Purchase mechas from Kurimanju Heavy Industries <a href='https://kurimanju-heavy-industries.netlify.app/'>here</a>!</h3>
 <p align="center">
     <img align="center" width="" alt="" src="./project-screenshots/demo.gif">
 </p>
