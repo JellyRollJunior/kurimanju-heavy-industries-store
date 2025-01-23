@@ -5,7 +5,7 @@
 </p>
 
 ### Features
-- Stylish homepage and storefront!
+- Stylish homepage and storefront designed by me!
 - Button hover animations
 - Slide-in, slide-out shopping cart implmented with react state
 - Fixed position header and cart
@@ -21,6 +21,7 @@
 - First time using react router
 - First time using CSS modules (composes is kinda neat)
 - First time using vitest for a project (mocking components, mocking functions, render, snapshot testing, and userEvent)
+- First time playing around with animations!
 
 ## Responsive Layout Showcase
 
@@ -32,6 +33,11 @@
 | <img width="" alt="" src="./project-screenshots/320-cart.png"> | <img width="" alt="" src="./project-screenshots/768-cart.png"> | <img width="" alt="" src="./project-screenshots/1440-cart.png"> |
 
 ## Retrospective (aka yapping)
+I'm really proud of the design I created. Its a futuristic mechanical theme! 
+
+I had a bit of trouble fiddling with CSS modules. I'm unsure how to make full use of theming with colors.module.css when I cannot use composes with standard elements (like html, button, div). Guess I would have to link it from index.html. Actually thats probably it.
+
+I'm also thinking my testing is not comprehensive enough. I will try to test more cases and read some more testing code. 
 
 ## Acknowledgements
 
