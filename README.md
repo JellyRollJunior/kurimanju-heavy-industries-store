@@ -23,6 +23,7 @@
 - First time using vitest for a project (mocking components, mocking functions, render, snapshot testing, and userEvent)
 - First time playing around with animations!
 - Netlify redirects :O
+  - VSCode will no complain about import letter casing, css file naming but Netlify sure will! be sure to properly double check your imports
 
 ## Responsive Layout Showcase
 
@@ -39,6 +40,8 @@ I'm really proud of the design I created. Its a futuristic mechanical theme!
 I had a bit of trouble fiddling with CSS modules. I'm unsure how to make full use of theming with colors.module.css when I cannot use composes with standard elements (like html, button, div). Guess I would have to link it from index.html. Actually thats probably it.
 
 I'm also thinking my testing is not comprehensive enough. I will try to test more cases and read some more testing code. 
+
+I had some trouble deploying the site as well. My img imports letter casing was different from the file letter casing which caused the imports to fail on Netlify. I also named my global and reset css files with the .module.css suffix which caused those styles not to be applied to the site.  
 
 ## Acknowledgements
 
